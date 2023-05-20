@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Page</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,19 +19,29 @@
   </head>
   <body>
     <header>
-      <a class="logo" href=""><span class="web">Web</span>Studio</a>
+      <div class="menu">
+        <a class="logo" href=""><span class="web">Web</span>Studio</a>
 
-      <nav>
-        <ul>
-          <li><a class="nav" href="./index.html">Agencja</a></li>
-          <li><a class="nav" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="nav" href="">Kontakt</a></li>
-        </ul>
-      </nav>
-      <a class="kontakt-header" href="mailto:info@example.com"
-        >info@example.com</a
-      >
-      <a class="kontakt-header" href="tel:+48111111111">+48111111111</a>
+        <nav>
+          <ul class="menu-nav">
+            <li>
+              <a class="nav" href="./index.html">Agencja</a>
+            </li>
+            <li>
+              <a class="nav" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="nav" href="">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="kont-mail">
+          <a class="kontakt-header" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+          <a class="kontakt-header" href="tel:+48111111111">+48111111111</a>
+        </div>
+      </div>
     </header>
     <main>
       <section class="background-index">
