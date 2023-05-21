@@ -76,7 +76,8 @@ a {
 .background-index {
   background: #2f303a;
   padding: 200px 452px 280px 452px;
-  max-width: 1200px;
+  max-width: 1600px;
+  height: 600;
   margin: 0 auto;
   text-align: center;
 }
@@ -108,6 +109,8 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
+  padding-top: 94px;
 }
 .team-image {
   font-weight: 500;
@@ -116,9 +119,8 @@ a {
 }
 .team {
   background: #f5f4fa;
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
-  text-align: center;
 }
 .position-index {
   font-weight: 400;
@@ -128,12 +130,14 @@ a {
 }
 .background-footer {
   background: #2f303a;
+  max-width: 1600px;
 }
 .logo-footer {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  margin-left: 215px;
 }
 .studio-footer {
   color: #ffffff;
@@ -142,6 +146,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  margin-left: 215px;
 }
 .adress-footer {
   color: #ffffff;
@@ -155,27 +160,32 @@ a {
 }
 .menu {
   display: flex;
-  max-width: 1200px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .menu-nav {
   display: flex;
   gap: 46px;
+  align-items: center;
 }
 .kont-mail {
   display: flex;
   margin-left: auto;
   gap: 50px;
+  align-items: center;
 }
 .advantages {
-  display: flex;
+  max-width: 1200px;
   margin: 0 auto;
   gap: 30px;
+  padding: 94px;
+}
+.text-lorem {
+  display: flex;
 }
 .image-index-1 {
   max-width: 1200px;
-  padding: 94px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   text-align: center;
 }
 .images-profil {
@@ -187,4 +197,23 @@ a {
   display: flex;
   gap: 30px;
   margin-top: 50px;
+  text-align: center;
+}
+.web-nav-portfolio {
+}
+.button-nav-port {
+  max-width: 1200px;
+}
+.buttons-port {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.image-project-port {
+  max-width: 1200px;
+}
+.image-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
