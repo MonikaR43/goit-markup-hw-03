@@ -75,10 +75,10 @@ a {
 
 .background-index {
   background: #2f303a;
-  padding: 200px 0;
-  max-width: 1600px;
-  height: 600px;
+  padding: 200px 452px 280px 452px;
+  max-width: 1200px;
   margin: 0 auto;
+  text-align: center;
 }
 .h1 {
   font-weight: 900;
@@ -116,6 +116,9 @@ a {
 }
 .team {
   background: #f5f4fa;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
 .position-index {
   font-weight: 400;
@@ -152,6 +155,7 @@ a {
 }
 .menu {
   display: flex;
+  max-width: 1200px;
 }
 .menu-nav {
   display: flex;
@@ -161,4 +165,26 @@ a {
   display: flex;
   margin-left: auto;
   gap: 50px;
+}
+.advantages {
+  display: flex;
+  margin: 0 auto;
+  gap: 30px;
+}
+.image-index-1 {
+  max-width: 1200px;
+  padding: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.images-profil {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+.images-team-4 {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
 }
