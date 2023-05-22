@@ -19,12 +19,11 @@
   </head>
   <body>
     <header>
-      <div class="menu">
-        <a class="logo" href=""><span class="web">Web</span>Studio</a>
-
-        <nav>
+      <div class="container">
+        <nav class="menu">
           <ul class="menu-nav">
             <li>
+              <a class="logo" href=""><span class="web">Web</span>Studio</a>
               <a class="nav" href="./index.html">Agencja</a>
             </li>
             <li>
@@ -34,134 +33,157 @@
               <a class="nav" href="">Kontakt</a>
             </li>
           </ul>
+
+          <ul class="kont-mail">
+            <li>
+              <a class="kontakt-header" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="kontakt-header" href="tel:+48111111111">+48111111111</a>
+            </li>
+          </ul>
         </nav>
-        <div class="kont-mail">
-          <a class="kontakt-header" href="mailto:info@example.com"
-            >info@example.com</a
-          >
-          <a class="kontakt-header" href="tel:+48111111111">+48111111111</a>
-        </div>
       </div>
     </header>
     <main>
       <section class="background-index">
-        <h1 class="h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="button-index" type="button">Zamów usługę</button>
+        <div class="container">
+          <h1 class="h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button class="button-index" type="button">Zamów usługę</button>
+        </div>
       </section>
-      <div class="advantages">
-        <ul class="text-lorem">
-          <li>
-            <h4 class="name-index">LOREM IPSUM</h4>
-            <p class="text-index">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
+      <section class="section">
+        <div class="container">
+          <ul class="text-lorem">
+            <li>
+              <h4 class="name-index">LOREM IPSUM</h4>
+              <p class="text-index">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
 
-          <li>
-            <h4 class="name-index">LOREM IPSUM</h4>
-            <p class="text-index">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
+            <li>
+              <h4 class="name-index">LOREM IPSUM</h4>
+              <p class="text-index">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
 
-          <li>
-            <h4 class="name-index">LOREM IPSUM</h4>
-            <p class="text-index">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
+            <li>
+              <h4 class="name-index">LOREM IPSUM</h4>
+              <p class="text-index">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
 
-          <li>
-            <h4 class="name-index">LOREM IPSUM</h4>
-            <p class="text-index">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div class="image-index-1">
-        <h2 class="descripition-index">Czym się zajmujemy</h2>
-        <ul class="images-profil">
-          <li>
-            <img
-              width="370"
-              height="294"
-              src="images/img1.jpg"
-              alt="picture of a computer"
-            />
-          </li>
-          <li>
-            <img width="370" height="294" src="images/box2.jpg" alt="telefon" />
-          </li>
-          <li>
-            <img width="370" height="294" src="images/box3.jpg" alt="tablet" />
-          </li>
-        </ul>
-      </div>
+            <li>
+              <h4 class="name-index">LOREM IPSUM</h4>
+              <p class="text-index">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="descripition-index">Czym się zajmujemy</h2>
+          <ul class="images-profil">
+            <li>
+              <img
+                width="370"
+                height="294"
+                src="images/img1.jpg"
+                alt="picture of a computer"
+              />
+            </li>
+            <li>
+              <img
+                width="370"
+                height="294"
+                src="images/box2.jpg"
+                alt="telefon"
+              />
+            </li>
+            <li>
+              <img
+                width="370"
+                height="294"
+                src="images/box3.jpg"
+                alt="tablet"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
       <div class="team">
-        <h2 class="descripition-index">Nasz zespół</h2>
-        <ul class="images-team-4">
-          <li>
-            <figure>
-              <img
-                width="270"
-                height="260"
-                src="images/teamcard1.jpg"
-                alt="Man with glasses"
-              />
-              <figcaption>
-                <h4 class="team-image">John Doe</h4>
-                <p class="position-index">Product Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                width="270"
-                height="260"
-                src="images/teamcard2.jpg"
-                alt="Women with glasses"
-              />
-              <figcaption>
-                <h4 class="team-image">John Doe</h4>
-                <p class="position-index">Frontend Developer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                width="270"
-                height="260"
-                src="images/teamcard3.jpg"
-                alt="smiling man"
-              />
-              <figcaption>
-                <h4 class="team-image">John Doe</h4>
-                <p class="position-index">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                width="270"
-                height="260"
-                src="images/teamcard4.jpg"
-                alt="Man with glasses"
-              />
-              <figcaption>
-                <h4 class="team-image">John Doe</h4>
-                <p class="position-index">UI Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="descripition-index">Nasz zespół</h2>
+          <ul class="images-team-4">
+            <li>
+              <figure>
+                <img
+                  width="270"
+                  height="260"
+                  src="images/teamcard1.jpg"
+                  alt="Man with glasses"
+                />
+                <figcaption>
+                  <h4 class="team-image">John Doe</h4>
+                  <p class="position-index">Product Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  width="270"
+                  height="260"
+                  src="images/teamcard2.jpg"
+                  alt="Women with glasses"
+                />
+                <figcaption>
+                  <h4 class="team-image">John Doe</h4>
+                  <p class="position-index">Frontend Developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  width="270"
+                  height="260"
+                  src="images/teamcard3.jpg"
+                  alt="smiling man"
+                />
+                <figcaption>
+                  <h4 class="team-image">John Doe</h4>
+                  <p class="position-index">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  width="270"
+                  height="260"
+                  src="images/teamcard4.jpg"
+                  alt="Man with glasses"
+                />
+                <figcaption>
+                  <h4 class="team-image">John Doe</h4>
+                  <p class="position-index">UI Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
       </div>
     </main>
     <footer class="background-footer">

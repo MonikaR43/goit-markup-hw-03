@@ -48,6 +48,7 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  padding-right: 47px;
 }
 .web {
   color: #2196f3;
@@ -57,6 +58,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  padding-left: 46px;
 }
 .nav:hover,
 .nav:focus {
@@ -76,9 +78,7 @@ a {
 .background-index {
   background: #2f303a;
   padding: 200px 452px 280px 452px;
-  max-width: 1600px;
   height: 600;
-  margin: 0 auto;
   text-align: center;
 }
 .h1 {
@@ -93,6 +93,8 @@ a {
   line-height: 1.88;
   color: #ffffff;
   background: #2196f3;
+  width: 200px;
+  height: 50px;
 }
 .name-index {
   font-weight: 700;
@@ -110,7 +112,6 @@ a {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  padding-top: 94px;
 }
 .team-image {
   font-weight: 500;
@@ -119,9 +120,8 @@ a {
 }
 .team {
   background: #f5f4fa;
-  max-width: 1600px;
-  margin: 0 auto;
 }
+
 .position-index {
   font-weight: 400;
   font-size: 16px;
@@ -158,36 +158,34 @@ a {
 .kontakt-footer:focus {
   color: #2196f3;
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .menu {
   display: flex;
-  max-width: 1600px;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  letter-spacing: 0.02em;
 }
 .menu-nav {
   display: flex;
-  gap: 46px;
-  align-items: center;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 50px;
 }
 .kont-mail {
   display: flex;
-  margin-left: auto;
   gap: 50px;
   align-items: center;
+  justify-content: flex-end;
 }
-.advantages {
-  max-width: 1200px;
-  margin: 0 auto;
-  gap: 30px;
-  padding: 94px;
-}
+
 .text-lorem {
   display: flex;
+  gap: 30px;
 }
-.image-index-1 {
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-}
+
 .images-profil {
   display: flex;
   gap: 30px;
@@ -196,8 +194,11 @@ a {
 .images-team-4 {
   display: flex;
   gap: 30px;
-  margin-top: 50px;
+}
+
+ul[class="images-team-4"] > li {
   text-align: center;
+  background-color: #ffffff;
 }
 .web-nav-portfolio {
 }
@@ -216,4 +217,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+}
+.section {
+  padding: 94px 0 94px 0;
 }
