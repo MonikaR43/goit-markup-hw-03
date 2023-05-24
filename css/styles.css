@@ -78,7 +78,6 @@ a {
 .background-index {
   background: #2f303a;
   padding: 200px 452px 280px 452px;
-  height: 600;
   text-align: center;
 }
 .h1 {
@@ -86,6 +85,14 @@ a {
   font-size: 44px;
   line-height: 1.36;
   color: #ffffff;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 696px;
+}
+.button {
+  border: none;
+  border-radius: 4px;
 }
 .button-index {
   font-weight: 700;
@@ -93,8 +100,9 @@ a {
   line-height: 1.88;
   color: #ffffff;
   background: #2196f3;
-  width: 200px;
+  max-width: 200px;
   height: 50px;
+  padding: 10px 40px;
 }
 .name-index {
   font-weight: 700;
@@ -117,6 +125,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 .team {
   background: #f5f4fa;
@@ -127,17 +136,18 @@ a {
   font-size: 16px;
   line-height: 1.19;
   color: #757575;
+  text-align: center;
 }
 .background-footer {
   background: #2f303a;
-  max-width: 1600px;
 }
 .logo-footer {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  margin-left: 215px;
+  padding-top: 60px;
+  padding-left: 15px;
 }
 .studio-footer {
   color: #ffffff;
@@ -146,7 +156,8 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  margin-left: 215px;
+  padding-top: 20px;
+  padding-left: 15px;
 }
 .adress-footer {
   color: #ffffff;
@@ -189,17 +200,8 @@ a {
 .images-profil {
   display: flex;
   gap: 30px;
-  margin-top: 30px;
-}
-.images-team-4 {
-  display: flex;
-  gap: 30px;
 }
 
-ul[class="images-team-4"] > li {
-  text-align: center;
-  background-color: #ffffff;
-}
 .web-nav-portfolio {
 }
 .button-nav-port {
@@ -219,5 +221,10 @@ ul[class="images-team-4"] > li {
   text-align: center;
 }
 .section {
-  padding: 94px 0 94px 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.images-team-4 {
+  display: flex;
+  gap: 30px;
 }
