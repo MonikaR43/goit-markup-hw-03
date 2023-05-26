@@ -314,3 +314,7 @@ a {
 .footer-tel-index {
   margin: 0;
 }
+.portfolio-images-projects {
+  display: block;
+  max-width: 100%;
+}
